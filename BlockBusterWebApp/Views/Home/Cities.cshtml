@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Cities";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Top 5 Cities</p>
+
+<ol>
+    @{
+        foreach (var city in ViewBag.Cities)
+        {
+                    <ol>@city</ol>   
+        }
+    }
+</ol>

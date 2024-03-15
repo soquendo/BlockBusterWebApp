@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Hobbies";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Hobbies</p>
+
+<ul>
+    @{
+        var hobbiesList = string.Join(", ", ViewBag.Hobbies);
+    }
+    <li>@hobbiesList</li>
+</ul>
