@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockBusterWebApp", "BlockBusterWebApp\BlockBusterWebApp.csproj", "{AAD66550-A4F0-4DA0-876D-5ACDDADE35FE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockBuster", "BlockBuster\BlockBuster.csproj", "{CE39CEE7-79B8-4F00-B053-FBFC47EDC8BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AAD66550-A4F0-4DA0-876D-5ACDDADE35FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD66550-A4F0-4DA0-876D-5ACDDADE35FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD66550-A4F0-4DA0-876D-5ACDDADE35FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE39CEE7-79B8-4F00-B053-FBFC47EDC8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE39CEE7-79B8-4F00-B053-FBFC47EDC8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE39CEE7-79B8-4F00-B053-FBFC47EDC8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE39CEE7-79B8-4F00-B053-FBFC47EDC8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 ﻿using BlockBusterWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using BlockBuster;
 
 namespace BlockBusterWebApp.Controllers
 {
@@ -42,6 +43,12 @@ namespace BlockBusterWebApp.Controllers
             string[] hobbies = { "Photography", "Graphic Design", "Cooking", "Video Games", "Sports" };
             ViewBag.Hobbies = hobbies;
             return View();
+        }
+
+        public IActionResult Movies() 
+        {
+            var movieList = BlockBusterBasicFunctions.GetAllMoviesFull();
+            return View(movieList);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
